@@ -42,8 +42,8 @@ class GlobalRestrict(loader.Module):
     """Delete JAB"""
 
     strings = {
-        "name": "GlobalRestrict",
-        "no_reason": "Zdeleter",
+        "name": "Restrict",
+        "no_reason": "Processing Baby",
         "args": "<b>Invalid arguments</b>",
         "args_id": "<b>Invalid arguments</b>",
         "invalid_id": "<b>User ID must be a number</b>",
@@ -54,7 +54,7 @@ class GlobalRestrict(loader.Module):
     }
 
     strings_ru = {
-        "no_reason": "Zdeleter",
+        "no_reason": "Processing Baby",
         "args": "<b>Invalid arguments</b>",
         "args_id": "<b>Invalid arguments</b>",
         "invalid_id": "<b>User ID must be a number</b>",
